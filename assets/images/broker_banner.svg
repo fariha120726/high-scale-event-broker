@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="1200" height="500">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05121e"/>
+      <stop offset="50%" stop-color="#082035"/>
+      <stop offset="100%" stop-color="#02080e"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="50%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+    <linearGradient id="c2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0d3152"/>
+      <stop offset="100%" stop-color="#061a2b"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="500" rx="18" fill="url(#bg2)"/>
+
+  <g stroke="#06b6d4" stroke-opacity="0.06" stroke-width="1">
+    <line x1="0" y1="120" x2="1200" y2="120" />
+    <line x1="0" y1="240" x2="1200" y2="240" />
+    <line x1="0" y1="360" x2="1200" y2="360" />
+    <line x1="300" y1="0" x2="300" y2="500" />
+    <line x1="600" y1="0" x2="600" y2="500" />
+    <line x1="900" y1="0" x2="900" y2="500" />
+  </g>
+
+  <rect x="380" y="40" width="440" height="34" rx="17" fill="#083344" stroke="#06b6d4" stroke-width="1.5"/>
+  <text x="600" y="63" fill="#67e8f9" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="700" text-anchor="middle" letter-spacing="2">⚡ REAL-TIME STREAMING &amp; ZERO-COPY</text>
+
+  <text x="600" y="125" fill="url(#g2)" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="44" font-weight="900" text-anchor="middle">HIGH-SCALE EVENT BROKER</text>
+  <text x="600" y="160" fill="#bae6fd" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="17" text-anchor="middle">Ultra-Low Latency In-Memory Message Bus, Ring Buffer Streaming &amp; High-Throughput Pub/Sub</text>
+
+  <g transform="translate(80, 220)">
+    <rect width="320" height="210" rx="16" fill="url(#c2)" stroke="#06b6d4" stroke-width="1.5" stroke-opacity="0.5"/>
+    <text x="40" y="50" fill="#06b6d4" font-size="22">⚡</text>
+    <text x="75" y="48" fill="#f8fafc" font-family="sans-serif" font-size="18" font-weight="700">Zero-Copy Ingestion</text>
+    <text x="30" y="95" fill="#94a3b8" font-family="sans-serif" font-size="14">Direct kernel-to-userland splice</text>
+    <text x="30" y="125" fill="#94a3b8" font-family="sans-serif" font-size="14">Lock-free circular ring buffer</text>
+    <text x="30" y="155" fill="#94a3b8" font-family="sans-serif" font-size="14">Sub-microsecond message dispatch</text>
+    <rect x="30" y="175" width="85" height="20" rx="6" fill="#0e7490" fill-opacity="0.4"/>
+    <text x="72" y="189" fill="#a5f3fc" font-family="sans-serif" font-size="11" font-weight="700" text-anchor="middle">10M MSG/S</text>
+  </g>
+
+  <g transform="translate(440, 220)">
+    <rect width="320" height="210" rx="16" fill="url(#c2)" stroke="#3b82f6" stroke-width="1.5" stroke-opacity="0.5"/>
+    <text x="40" y="50" fill="#3b82f6" font-size="22">📊</text>
+    <text x="75" y="48" fill="#f8fafc" font-family="sans-serif" font-size="18" font-weight="700">Partition Rebalance</text>
+    <text x="30" y="95" fill="#94a3b8" font-family="sans-serif" font-size="14">Consistent hashing ring routing</text>
+    <text x="30" y="125" fill="#94a3b8" font-family="sans-serif" font-size="14">Zero-downtime topic scaling</text>
+    <text x="30" y="155" fill="#94a3b8" font-family="sans-serif" font-size="14">Consumer lag telemetry</text>
+    <rect x="30" y="175" width="95" height="20" rx="6" fill="#1d4ed8" fill-opacity="0.4"/>
+    <text x="77" y="189" fill="#bfdbfe" font-family="sans-serif" font-size="11" font-weight="700" text-anchor="middle">AUTO SCALE</text>
+  </g>
+
+  <g transform="translate(800, 220)">
+    <rect width="320" height="210" rx="16" fill="url(#c2)" stroke="#60a5fa" stroke-width="1.5" stroke-opacity="0.5"/>
+    <text x="40" y="50" fill="#60a5fa" font-size="22">💾</text>
+    <text x="75" y="48" fill="#f8fafc" font-family="sans-serif" font-size="18" font-weight="700">Durable WAL</text>
+    <text x="30" y="95" fill="#94a3b8" font-family="sans-serif" font-size="14">Async segment index writes</text>
+    <text x="30" y="125" fill="#94a3b8" font-family="sans-serif" font-size="14">Zero garbage collector pressure</text>
+    <text x="30" y="155" fill="#94a3b8" font-family="sans-serif" font-size="14">Off-heap memory management</text>
+    <rect x="30" y="175" width="95" height="20" rx="6" fill="#2563eb" fill-opacity="0.4"/>
+    <text x="77" y="189" fill="#dbeafe" font-family="sans-serif" font-size="11" font-weight="700" text-anchor="middle">OFF-HEAP</text>
+  </g>
+</svg>
